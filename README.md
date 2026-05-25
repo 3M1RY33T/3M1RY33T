@@ -11,41 +11,6 @@
   </table>
 </div>
 
-<style>
-  h1 {
-    border: none !important;
-    padding-bottom: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  
-  .blog-link {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .blog-link span {
-    color: #3B5BDB;
-  }
-  
-  h4 {
-    margin: 8px 0 6px 0 !important;
-  }
-  
-  @media (max-width: 768px) {
-    table {
-      display: block;
-    }
-    table tr {
-      display: block;
-      margin-bottom: 20px;
-    }
-    table td {
-      display: block;
-      width: 100% !important;
-      margin-bottom: 15px;
-    }
-  }
-</style>
 ## 🎯 About Me
 
 <div>
