@@ -1,457 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Project Likes and Comments</title>
-    <style>
-        :root {
-            --bg: #ffffff;
-            --panel: #f6f8fa;
-            --border: #d0d7de;
-            --text: #24292f;
-            --muted: #57606a;
-            --accent: #0969da;
-            --accent-dark: #0757b3;
-            --success-bg: #dafbe1;
-            --success-border: #2da44e;
-            --danger: #cf222e;
-        }
+# 👋 Hi, I'm Yigit Yildiz
 
-        * {
-            box-sizing: border-box;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00A8E8&center=true&vCenter=true&width=435&lines=Developer+%7C+Code+Enthusiast;Always+Learning+and+Growing;Building+Cool+Projects" alt="Typing SVG" />
+</div>
 
-        body {
-            margin: 0;
-            background: var(--bg);
-            color: var(--text);
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-        }
+---
 
-        .readme-page {
-            width: min(100% - 32px, 860px);
-            margin: 0 auto;
-            padding: 24px 0 48px;
-        }
+## 🎯 About Me
 
-        .readme-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 20px;
-            padding-bottom: 18px;
-            margin-bottom: 24px;
-            border-bottom: 1px solid var(--border);
-        }
+I'm a **dedicated developer** from **Toronto, Ontario** passionate about creating elegant code solutions and learning new technologies. I love building projects that make a difference and exploring the intersection of creativity and technology.
 
-        .readme-header h1 {
-            margin: 0 0 6px;
-            font-size: clamp(1.6rem, 4vw, 2.3rem);
-            line-height: 1.15;
-        }
+- 🌍 **Location**: Toronto, Ontario, Canada
+- 💼 **Focus**: Software Development & Web Technologies
+- 🚀 **Passion**: Building scalable applications and continuous learning
+- 🔗 **Portfolio**: [3m1ry33t.github.io](https://3m1ry33t.github.io)
 
-        .readme-header p {
-            margin: 0;
-            color: var(--muted);
-        }
+---
 
-        .repo-actions {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            justify-content: flex-end;
-        }
+## 📊 GitHub Statistics
 
-        .repo-link,
-        [data-like-button],
-        [data-comment-send],
-        .comment-like-button,
-        .comment-reply-button,
-        .cancel-button,
-        .submit-button {
-            min-height: 36px;
-            border-radius: 6px;
-            font: inherit;
-            font-weight: 600;
-            cursor: pointer;
-        }
+<div align="center">
+  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=3M1RY33T&theme=nord&show_icons=true&hide_border=true&count_private=true)
 
-        .repo-link {
-            display: inline-flex;
-            align-items: center;
-            padding: 7px 14px;
-            border: 1px solid var(--border);
-            color: var(--text);
-            text-decoration: none;
-            background: var(--panel);
-        }
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=3M1RY33T&theme=nord&hide_border=true)
 
-        .repo-link:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=3M1RY33T&theme=nord&layout=compact&hide_border=true)
 
-        [data-like-button] {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 7px 14px;
-            background: var(--bg);
-            border: 1px solid var(--border);
-            color: var(--text);
-        }
+</div>
 
-        [data-like-button]:hover:not(:disabled) {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
+---
 
-        [data-like-button].is-liked {
-            background: var(--success-bg);
-            border-color: var(--success-border);
-            color: #1a7f37;
-        }
+## 🛠️ Tech Stack & Tools
 
-        [data-like-button]:disabled,
-        [data-comment-send]:disabled,
-        .comment-like-button:disabled {
-            opacity: 0.65;
-            cursor: default;
-        }
+<div align="center">
 
-        .readme-card {
-            padding: 18px;
-            margin-bottom: 24px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            background: var(--panel);
-        }
+### 💻 Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-        .readme-card h2,
-        .comments-heading {
-            margin: 0 0 10px;
-            font-size: 1.2rem;
-            line-height: 1.25;
-        }
+### 🚀 Frameworks & Libraries
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-        .readme-card p {
-            margin: 0;
-            color: var(--muted);
-        }
+### 🎨 Tools & Platforms
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Terminal](https://img.shields.io/badge/Terminal-000000?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-        [data-comment-list] {
-            margin: 16px 0 20px;
-        }
+</div>
 
-        .comment-item {
-            padding: 14px;
-            margin-bottom: 12px;
-            border: 1px solid var(--border);
-            border-left: 3px solid var(--accent);
-            border-radius: 6px;
-            background: var(--bg);
-        }
+---
 
-        .comment-reply {
-            margin-top: 12px;
-        }
+## 📈 Contribution Activity
 
-        .comment-meta {
-            margin: 0 0 8px;
-            color: var(--muted);
-            font-size: 0.9rem;
-            font-weight: 600;
-        }
+<div align="center">
+  
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=3M1RY33T&theme=nord&hide_border=true&area=true)
 
-        .comment-body {
-            margin: 0 0 12px;
-            white-space: pre-wrap;
-        }
+</div>
 
-        .comment-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
+---
 
-        .comment-like-button,
-        .comment-reply-button,
-        .cancel-button {
-            padding: 6px 12px;
-            border: 1px solid var(--border);
-            background: var(--bg);
-            color: var(--text);
-        }
+## 🎯 Current Focus
 
-        .comment-like-button:hover:not(:disabled),
-        .comment-reply-button:hover,
-        .cancel-button:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-        }
+- 🔍 Exploring modern web development practices
+- 📚 Continuous learning and skill enhancement
+- 💡 Building projects that showcase technical excellence
+- 🤝 Contributing to the developer community
 
-        .comment-empty {
-            margin: 0;
-            padding: 20px;
-            border: 1px dashed var(--border);
-            border-radius: 6px;
-            color: var(--muted);
-            text-align: center;
-        }
+---
 
-        [data-comment-status] {
-            min-height: 24px;
-            margin-bottom: 10px;
-            color: var(--muted);
-            font-weight: 600;
-        }
+## 📌 Featured Projects
 
-        [data-comment-status].is-error {
-            color: var(--danger);
-        }
+<div align="center">
 
-        [data-comment-draft-form] {
-            padding: 16px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            background: var(--panel);
-        }
+| Project | Description | Tech Stack |
+|---------|-------------|-----------|
+| **3M1RY33T** | Profile & Portfolio Repository | GitHub Pages |
+| **3M1RY33T.github.io** | Personal Portfolio Website | HTML, CSS, JavaScript |
 
-        [data-comment-draft-form] textarea {
-            width: 100%;
-            min-height: 112px;
-            resize: vertical;
-            display: block;
-            padding: 10px 12px;
-            margin-bottom: 12px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            color: var(--text);
-            font: inherit;
-            background: var(--bg);
-        }
+</div>
 
-        [data-comment-draft-form] textarea:focus,
-        .modal-field input:focus {
-            outline: 2px solid rgba(9, 105, 218, 0.25);
-            border-color: var(--accent);
-        }
+---
 
-        [data-comment-send],
-        .submit-button {
-            padding: 7px 14px;
-            border: 1px solid var(--accent);
-            background: var(--accent);
-            color: #ffffff;
-        }
+## 🤝 Let's Connect
 
-        [data-comment-send]:hover:not(:disabled),
-        .submit-button:hover {
-            border-color: var(--accent-dark);
-            background: var(--accent-dark);
-        }
+<div align="center">
 
-        [data-comment-modal] {
-            position: fixed;
-            inset: 0;
-            z-index: 1000;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-            background: rgba(36, 41, 47, 0.55);
-        }
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/3M1RY33T)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=firefox)](https://3m1ry33t.github.io)
 
-        [data-comment-modal]:not([hidden]) {
-            display: flex;
-        }
+</div>
 
-        .modal-dialog {
-            width: min(100%, 460px);
-            padding: 20px;
-            border-radius: 6px;
-            border: 1px solid var(--border);
-            background: var(--bg);
-            box-shadow: 0 16px 48px rgba(36, 41, 47, 0.24);
-        }
+---
 
-        .modal-dialog h3 {
-            margin: 0 0 16px;
-            font-size: 1.15rem;
-        }
+## 💪 Stats at a Glance
 
-        .modal-field {
-            margin-bottom: 14px;
-        }
+<div align="center">
 
-        .modal-field label {
-            display: block;
-            margin-bottom: 6px;
-            font-weight: 600;
-        }
+| Metric | Value |
+|--------|-------|
+| **Public Repositories** | 7 |
+| **Followers** | 1+ |
+| **Following** | 3 |
+| **Account Created** | September 2024 |
 
-        .modal-field input {
-            width: 100%;
-            padding: 9px 10px;
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            font: inherit;
-        }
+</div>
 
-        .honeypot {
-            position: absolute;
-            left: -9999px;
-            width: 1px;
-            height: 1px;
-            overflow: hidden;
-        }
+---
 
-        .form-actions {
-            display: flex;
-            justify-content: flex-end;
-            gap: 10px;
-            margin-top: 18px;
-        }
+<div align="center">
+  
+### ⭐ If you find my work interesting, don't forget to star my repositories!
 
-        @media (max-width: 640px) {
-            .readme-header {
-                display: block;
-            }
+*Last Updated: May 2026*
 
-            .repo-actions {
-                justify-content: flex-start;
-                margin-top: 16px;
-            }
-
-            .repo-link,
-            [data-like-button],
-            [data-comment-send] {
-                width: 100%;
-                justify-content: center;
-            }
-
-            .form-actions {
-                flex-direction: column;
-            }
-
-            .cancel-button,
-            .submit-button {
-                width: 100%;
-            }
-        }
-    </style>
-</head>
-<body>
-    <main class="readme-page">
-        <header class="readme-header">
-            <div>
-                <h1>Your Project Name</h1>
-                <p>A small companion page for README likes and moderated discussion.</p>
-            </div>
-
-            <div class="repo-actions">
-                <a class="repo-link" href="https://github.com/your-username/your-repo">View repo</a>
-                <button
-                    data-like-button
-                    data-path="/"
-                    aria-label="Like this project"
-                >
-                    <span aria-hidden="true">&hearts;</span>
-                    <span>Like</span>
-                    (<span data-like-count>0</span>)
-                </button>
-            </div>
-        </header>
-
-        <section class="readme-card" aria-labelledby="readme-template-heading">
-            <h2 id="readme-template-heading">README Discussion</h2>
-            <p>
-                Share feedback, questions, or notes about the project. New comments appear after moderation.
-            </p>
-        </section>
-
-        <section
-            data-worker-comments
-            data-page-id="/"
-            data-page-url="https://github.com/your-username/your-repo"
-            data-page-title="Your Project Name"
-            aria-labelledby="comments-heading"
-        >
-            <h2 class="comments-heading" id="comments-heading">Comments</h2>
-            <div data-comment-list></div>
-            <div data-comment-status></div>
-
-            <form data-comment-draft-form>
-                <textarea
-                    name="content"
-                    placeholder="Write a comment..."
-                    maxlength="2000"
-                    required
-                ></textarea>
-                <button type="submit" data-comment-send disabled>Post Comment</button>
-            </form>
-
-            <div data-comment-modal hidden>
-                <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="identity-heading">
-                    <h3 id="identity-heading">Before posting</h3>
-                    <form data-comment-identity-form>
-                        <div class="modal-field">
-                            <label for="comment-name">Name</label>
-                            <input
-                                id="comment-name"
-                                type="text"
-                                name="nickname"
-                                maxlength="80"
-                                autocomplete="name"
-                                required
-                            />
-                        </div>
-
-                        <div class="modal-field">
-                            <label for="comment-email">Email (optional)</label>
-                            <input
-                                id="comment-email"
-                                type="email"
-                                name="email"
-                                maxlength="254"
-                                autocomplete="email"
-                            />
-                        </div>
-
-                        <div class="honeypot" aria-hidden="true">
-                            <label for="comment-website">Website</label>
-                            <input
-                                id="comment-website"
-                                type="text"
-                                name="website"
-                                tabindex="-1"
-                                autocomplete="off"
-                            />
-                        </div>
-
-                        <div class="form-actions">
-                            <button type="button" class="cancel-button" data-comment-cancel>Cancel</button>
-                            <button type="submit" class="submit-button">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <script>
-        window.LIKES_CONFIG = {
-            endpoint: 'https://YOUR_WORKER_URL/likes'
-        };
-
-        window.COMMENTS_CONFIG = {
-            endpoint: 'https://YOUR_WORKER_URL/comments'
-        };
-    </script>
-    <script src="../../client/likes.js"></script>
-    <script src="../../client/comments.js"></script>
-</body>
-</html>
+</div>
