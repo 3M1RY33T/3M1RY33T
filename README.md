@@ -1,8 +1,6 @@
 # Hi, I'm Yigit Yildiz 👋
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00A8E8&center=true&vCenter=true&width=500&lines=Software+Engineer;Full+Stack+Developer;Building+Solutions+That+Matter" alt="Typing SVG" />
-
-## 🎯 About Me
+## About Me
 
 I'm a **Software Engineer** from **Istanbul, Turkey** living in **Toronto, Ontario** with a passion for building scalable, open-source solutions free for everyone to use. I have a diverse tech stack spanning backend, frontend, mobile, and cloud technologies.
 
