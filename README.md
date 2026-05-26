@@ -4,9 +4,9 @@
 
 ## 🎯 About Me
 
-I'm a **Software Engineer** from **Istanbul, Turkey** living in **Toronto, Ontario** with a passion for building scalable, open-source solutions free for everyone to use. I have a diverse tech stack spanning full-stack development, AI/ML, mobile applications, and cloud infrastructure.
+I'm a **Software Engineer** from **Istanbul, Turkey** living in **Toronto, Ontario** with a passion for building scalable, open-source solutions free for everyone to use. I have a diverse tech stack spanning backend, frontend, mobile, and cloud technologies.
 
-I enjoy turning ideas into polished, practical tools, especially when they connect thoughtful design with strong technical foundations. Lately, I've been focused on AI-powered workflows, serverless systems, and building solutions on the Cloudflare ecosystem.
+I enjoy turning ideas into polished, practical tools, especially when they connect thoughtful design with strong technical foundations. Lately, I've been focused on AI-powered workflows, serverless systems, and building developer tools that make a real impact.
 
 ### 📌 Quick Info
 - 🌍 **Location**: Toronto, Ontario, Canada
@@ -22,6 +22,10 @@ Regular updates regarding tech research / news, personal notes, my project relea
 ---
 
 ## 💻 Tech Stack
+
+<table>
+<tr>
+<td width="50%">
 
 ### Languages
 ![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -39,6 +43,9 @@ Regular updates regarding tech research / news, personal notes, my project relea
 ![Wrangler](https://img.shields.io/badge/Wrangler-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=flat&logo=jekyll&logoColor=white)
 
+</td>
+<td width="50%">
+
 ### Specialized
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![D1](https://img.shields.io/badge/D1-F38020?style=flat&logo=cloudflare&logoColor=white)
@@ -52,6 +59,11 @@ Regular updates regarding tech research / news, personal notes, my project relea
 ![Angular](https://img.shields.io/badge/Angular-E23237?style=flat&logo=angularjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 ### Databases & Data
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
@@ -59,11 +71,18 @@ Regular updates regarding tech research / news, personal notes, my project relea
 ![SQL Server](https://img.shields.io/badge/MSSQL-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 
+</td>
+<td width="50%">
+
 ### Tools & Platforms
 ![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Terminal](https://img.shields.io/badge/Terminal-000000?style=flat&logo=gnu-bash&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
